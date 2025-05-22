@@ -18,4 +18,4 @@ The Circular Spike Inputs can be used to override the shift-register at each sam
 
 The Power Out can be used to power another board.  Such as the Fourses Tarp, for which this circuit was designed for.
 
-<img src="Shmample_guide.png" alt="Shmample Guide" width=50% height=50%>
+<img src="Shmample_guide.png" alt="Shmample Guide" width=75% height=75%>
