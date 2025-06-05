@@ -40956,43 +40956,43 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 93.384515 35.239287)
-		(end 93.384515 35.874287)
+		(start 96.266 37.779287)
+		(end 96.266 37.144287)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "82a227f6-cb7b-4604-a428-1027cacab09b")
 	)
 	(gr_line
-		(start 94.019515 35.239287)
-		(end 93.384515 35.239287)
+		(start 96.901 37.779287)
+		(end 96.266 37.779287)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "cd2373f2-e728-4529-b93a-9aefc0764543")
 	)
 	(gr_line
-		(start 93.384515 35.239287)
-		(end 93.384515 34.604287)
+		(start 96.266 37.779287)
+		(end 96.266 38.414287)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "d7f08d28-5aad-4dc0-874e-96934afe5fb6")
 	)
 	(gr_line
-		(start 92.749515 35.239287)
-		(end 94.019515 35.239287)
+		(start 95.631 37.779287)
+		(end 96.901 37.779287)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "dafbb5a8-f24c-47a0-b430-7f9ff73c877c")
 	)
 	(gr_rect
@@ -58955,6 +58955,12 @@
 	(group ""
 		(uuid "53236c69-6776-4c6d-8150-97dc25aec2c6")
 		(members "786fccd0-c756-4df4-9ca1-d7558c21ba89" "fc2047d7-c2d4-444f-b0ec-a931303d1d08")
+	)
+	(group ""
+		(uuid "f4fa1dad-da9c-4746-8662-9be1c504c38a")
+		(members "82a227f6-cb7b-4604-a428-1027cacab09b" "cd2373f2-e728-4529-b93a-9aefc0764543"
+			"d7f08d28-5aad-4dc0-874e-96934afe5fb6" "dafbb5a8-f24c-47a0-b430-7f9ff73c877c"
+		)
 	)
 	(embedded_fonts no)
 )
