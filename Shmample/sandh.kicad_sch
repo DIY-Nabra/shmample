@@ -4654,7 +4654,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 77.47 129.54 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 77.47 92.71 0)
 			(effects
 				(font
@@ -7188,7 +7188,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 77.47 167.64 0)
 			(effects
 				(font
@@ -8074,7 +8074,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 77.47 54.61 0)
 			(effects
 				(font

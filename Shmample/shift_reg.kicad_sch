@@ -3304,6 +3304,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 186.69) (xy 220.98 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c9c128-22db-4a17-b9a7-c5534498218d")
+	)
+	(wire
+		(pts
 			(xy 81.28 130.81) (xy 83.82 130.81)
 		)
 		(stroke
@@ -4704,6 +4714,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 195.58) (xy 220.98 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71ea5d3-6ef1-4b4e-81fe-c353eaf2b36e")
+	)
+	(wire
+		(pts
 			(xy 300.99 68.58) (xy 303.53 68.58)
 		)
 		(stroke
@@ -5088,7 +5108,7 @@
 			)
 		)
 	)
-	(global_label "MIDO2"
+	(global_label "Hi"
 		(shape output)
 		(at 223.52 196.85 0)
 		(fields_autoplaced yes)
@@ -5100,7 +5120,7 @@
 		)
 		(uuid "6a5283ae-f272-4ee8-88f4-ba5196db0876")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.3714 196.85 0)
+			(at 228.4405 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5394,7 @@
 			)
 		)
 	)
-	(global_label "MIDO2"
+	(global_label "MIDO"
 		(shape input)
 		(at 306.07 203.2 270)
 		(fields_autoplaced yes)
@@ -5386,7 +5406,7 @@
 		)
 		(uuid "b9e4f92d-6395-48f3-9ba7-b62e7921d7e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 306.07 212.0514 90)
+			(at 306.07 210.8419 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 212.09 189.23 0)
 			(effects
 				(font
@@ -10288,7 +10308,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 300.99 38.1 0)
 			(effects
 				(font
@@ -10546,7 +10566,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "22k"
 			(at 196.85 190.4999 0)
 			(effects
 				(font
@@ -12407,6 +12427,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 220.98 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca71c56a-481b-4348-9452-7479ddf5f608")
+		(property "Reference" "TP4"
+			(at 223.52 182.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hi"
+			(at 223.52 184.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "diy-nabra:wvout"
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 220.98 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05501027-2c61-4d56-98dc-bd3bc010f8f2")
+		)
+		(instances
+			(project "Shmample"
+				(path "/1cc4cbc6-6cd4-4a68-b5af-d7edf14608e3/6c85cbcb-5e2e-44d2-a46d-091f3aead2bd"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM324")
 		(at 314.96 198.12 0)
 		(mirror x)
@@ -12424,7 +12511,7 @@
 				)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 314.96 205.74 0)
 			(effects
 				(font
@@ -12846,6 +12933,76 @@
 			(project "shift_reg"
 				(path "/f52b9e20-b444-4e7d-9371-c4b2faab7a9e"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.98 191.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d47b6ce4-c8a3-4f01-8dc5-e24fece64698")
+		(property "Reference" "R23"
+			(at 223.52 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 223.52 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "diy-nabra:r3"
+			(at 222.758 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdacf670-0072-4a40-9c39-d395f6a2c6bf")
+		)
+		(pin "2"
+			(uuid "714ce8e2-bef6-48fb-89b4-4e1d34ca6cb5")
+		)
+		(instances
+			(project "Shmample"
+				(path "/1cc4cbc6-6cd4-4a68-b5af-d7edf14608e3/6c85cbcb-5e2e-44d2-a46d-091f3aead2bd"
+					(reference "R23")
 					(unit 1)
 				)
 			)

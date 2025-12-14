@@ -5495,7 +5495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 248.92 111.7599 0)
 			(effects
 				(font
@@ -5822,7 +5822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM324"
+		(property "Value" "324"
 			(at 222.25 111.7599 0)
 			(effects
 				(font
