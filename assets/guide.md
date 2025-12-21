@@ -14,7 +14,7 @@ Voltage references are provided so that stage 5 can act as a sequencer, outputti
 
 The real fun happens when you plug something into the data input, where it acts something like a Klee sequencer, but sampling and holding between 1 and 4 sources per clock tick, and changing the selected output based on the contents of the shift-register.
 
-The Circular Spike Inputs can be used to override the shift-register at each sample-and-hold.  Send a signal here to force that stage to sample-and-hold from the Square Input and present the signal at the Star Outputs.
+The Circular Spike Inputs can be used to override the shift-register at each sample-and-hold.  Send a signal here to force that stage to sample-and-hold from the Square Input and present the signal at the Star Outputs.  These nodes are androgynous, and will also output a gate signal.
 
 The Power Out can be used to power another board.  Such as the Fourses Tarp, for which this circuit was designed for.
 
