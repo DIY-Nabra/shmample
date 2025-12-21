@@ -7605,7 +7605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "All-Out"
+		(property "Value" "Select-Out"
 			(at 189.23 50.7999 90)
 			(effects
 				(font
