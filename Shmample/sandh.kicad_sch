@@ -2377,6 +2377,16 @@
 		)
 		(uuid "772b0897-df74-4045-a553-4e2ce01f41a8")
 	)
+	(text "Unused Op-amp"
+		(exclude_from_sim no)
+		(at 252.476 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1eecce5-b6a9-484f-92de-97767cf444e7")
+	)
 	(junction
 		(at 38.1 82.55)
 		(diameter 0)
@@ -2490,12 +2500,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce49cca5-acc5-427b-89b7-e5cd65269ac8")
-	)
-	(junction
-		(at 173.99 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d177543f-cd66-4a25-b38a-7e71bef5feda")
 	)
 	(junction
 		(at 207.01 99.06)
@@ -2655,6 +2659,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 38.1) (xy 241.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd59040-ad9c-4b1f-b42f-3f4cd2907419")
+	)
+	(wire
+		(pts
 			(xy 38.1 82.55) (xy 38.1 85.09)
 		)
 		(stroke
@@ -2702,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "26b71fa6-b9d0-40e3-84f0-124bee24704f")
+	)
+	(wire
+		(pts
+			(xy 245.11 38.1) (xy 241.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276f7cb5-cecc-4bf0-8f97-e31e8ed84ccd")
 	)
 	(wire
 		(pts
@@ -2755,16 +2779,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 46.99) (xy 157.48 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa5e7e7-7ad8-4eed-9bf8-1f1b2cc93478")
-	)
-	(wire
-		(pts
 			(xy 54.61 157.48) (xy 58.42 157.48)
 		)
 		(stroke
@@ -2795,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 57.15) (xy 173.99 57.15)
+			(xy 243.84 48.26) (xy 261.62 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2872,16 +2886,6 @@
 			(type default)
 		)
 		(uuid "34f83436-9252-4464-ad94-4f490f03a6ef")
-	)
-	(wire
-		(pts
-			(xy 173.99 49.53) (xy 175.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35181a0e-19cb-4591-aaa4-75ec0bf573fd")
 	)
 	(wire
 		(pts
@@ -2975,13 +2979,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 49.53) (xy 173.99 49.53)
+			(xy 260.35 40.64) (xy 261.62 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46b87084-201a-494d-8870-d136c44e75a2")
+	)
+	(wire
+		(pts
+			(xy 153.67 46.99) (xy 157.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4819c1b6-35c5-45ab-b9ce-19a187a492f5")
 	)
 	(wire
 		(pts
@@ -3105,7 +3119,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 156.21 52.07)
+			(xy 245.11 43.18) (xy 243.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 57.15) (xy 173.99 49.53)
+			(xy 261.62 48.26) (xy 261.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 52.07) (xy 156.21 57.15)
+			(xy 243.84 43.18) (xy 243.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3875,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 49.53) (xy 184.15 49.53)
+			(xy 165.1 46.99) (xy 166.37 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +5090,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 165.1 49.53 0)
+		(at 252.73 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5085,7 +5099,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b79a903-c572-4b65-a35a-f5cfbe561a3e")
 		(property "Reference" "U4"
-			(at 165.1 39.37 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5107,7 @@
 			)
 		)
 		(property "Value" "324"
-			(at 165.1 41.91 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5115,7 @@
 			)
 		)
 		(property "Footprint" "diy-nabra:dip14"
-			(at 163.83 46.99 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +5124,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 166.37 44.45 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5133,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 165.1 49.53 0)
+			(at 252.73 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8260,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 184.15 49.53 270)
+		(at 166.37 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8255,7 +8269,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9fb6014-4176-42bf-9642-78cd89b60590")
 		(property "Reference" "TP19"
-			(at 189.23 48.2599 90)
+			(at 171.45 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8278,7 @@
 			)
 		)
 		(property "Value" "Select-Out"
-			(at 189.23 50.7999 90)
+			(at 171.45 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8287,7 @@
 			)
 		)
 		(property "Footprint" "diy-nabra:wsqout"
-			(at 184.15 54.61 0)
+			(at 166.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 54.61 0)
+			(at 166.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,7 +8305,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 184.15 49.53 0)
+			(at 166.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8391,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 49.53 90)
+		(at 161.29 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8386,7 +8400,7 @@
 		(fields_autoplaced yes)
 		(uuid "abee3414-f714-4053-b2c6-ff96540515b8")
 		(property "Reference" "R65"
-			(at 179.07 43.18 90)
+			(at 161.29 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,7 +8408,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 179.07 45.72 90)
+			(at 161.29 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8416,7 @@
 			)
 		)
 		(property "Footprint" "diy-nabra:r3"
-			(at 179.07 51.308 90)
+			(at 161.29 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 49.53 0)
+			(at 161.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8434,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 49.53 0)
+			(at 161.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,6 +9566,72 @@
 			(project "Shmample"
 				(path "/1cc4cbc6-6cd4-4a68-b5af-d7edf14608e3/047be123-b995-44bb-abcb-dd3aba29b22d"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3bcdca-1b03-4338-a3a7-6e1b2d578a05")
+		(property "Reference" "#PWR0103"
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "127efb15-df98-4262-bbc0-f06116254917")
+		)
+		(instances
+			(project "Shmample"
+				(path "/1cc4cbc6-6cd4-4a68-b5af-d7edf14608e3/047be123-b995-44bb-abcb-dd3aba29b22d"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
